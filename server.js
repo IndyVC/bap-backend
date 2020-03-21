@@ -3,8 +3,8 @@ const dotenv = require("dotenv");
 const colors = require("colors");
 const morgan = require("morgan");
 const connectDB = require("./config/db");
-const transactions = require("./routes/transactions");
-const path = require('path');
+const locations = require("./routes/locations");
+const path = require("path");
 
 // PORT
 const PORT = process.env.PORT || 5000;
@@ -23,8 +23,7 @@ if (process.env.NODE_ENV === "development") {
 }
 
 // ADDING ROUTES
-app.use("/api/v1/transactions", transactions);
-
+app.use("/api/locations", locations);
 
 app.listen(
   PORT,
