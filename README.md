@@ -1,4 +1,4 @@
-# indy-backend-template
+# indy-bap-backend
 NODEJS - Mongoose backend template (my private template)
 Created repo using following commands:
 ```
