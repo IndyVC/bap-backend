@@ -1,5 +1,5 @@
 # indy-backend-template
-NODEJS - Mongoose backend template
+NODEJS - Mongoose backend template (my private template)
 Created repo using following commands:
 ```
 npm init
